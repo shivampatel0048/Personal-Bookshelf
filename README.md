@@ -30,8 +30,8 @@ Make sure you have the following installed on your development machine:
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/your-username/personal-bookshelf.git
-    cd personal-bookshelf
+    git clone https://github.com/shivampatel0048/Personal-Bookshelf.git
+    cd Personal-Bookshelf
     ```
 
 2. **Install dependencies**:
