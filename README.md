@@ -1,8 +1,76 @@
-# React + Vite
+```markdown
+# React Vite Starter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a starter template for building React applications using Vite.
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Prerequisites
+
+Before getting started, ensure you have Node.js and npm (or yarn) installed on your machine.
+
+- Node.js: [Download](https://nodejs.org/)
+- npm: Automatically installed with Node.js
+- yarn (optional): [Install yarn](https://classic.yarnpkg.com/en/docs/install/) if you prefer using yarn over npm.
+
+### Installation
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/your-username/react-vite-starter.git
+    ```
+
+2. Navigate into the project directory:
+
+    ```bash
+    cd react-vite-starter
+    ```
+
+3. Install dependencies using npm:
+
+    ```bash
+    npm install
+    ```
+
+    or using yarn:
+
+    ```bash
+    yarn
+    ```
+
+### Development
+
+To start the development server, run:
+
+```bash
+npm run dev
+```
+
+or with yarn:
+
+```bash
+yarn dev
+```
+
+This will start the development server at `http://localhost:3000`.
+
+### Building for Production
+
+To build the project for production, run:
+
+```bash
+npm run build
+```
+
+or with yarn:
+
+```bash
+yarn build
+```
+
+The optimized production build will be generated in the `dist` directory.
+
+### More Information
+
+For more information on Vite, check out the [Vite documentation](https://vitejs.dev/).
