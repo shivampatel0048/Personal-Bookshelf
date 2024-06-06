@@ -1,46 +1,52 @@
-# React Vite Starter
+# Personal Bookshelf
 
-This project is a starter template for building React applications using Vite.
+Welcome to the Personal Bookshelf project! This application allows users to search for books and add them to their personal bookshelf. It leverages the Open Library API for searching books and utilizes local storage to persist the bookshelf data across sessions.
+
+## Features
+
+- **Book Search**: Search for books by name using the Open Library API.
+- **Personal Bookshelf**: Add books to a personal bookshelf which is saved in the browser's local storage.
+- **Responsive Design**: Optimized for both desktop and mobile views.
+- **Loading Indicator**: Displays a loading indicator while fetching search results.
+
+## Technologies Used
+
+- React
+- Vite
+- Open Library API
+- Local Storage
 
 ## Getting Started
 
 ### Prerequisites
 
-Before getting started, ensure you have Node.js and npm (or yarn) installed on your machine.
+Make sure you have the following installed on your development machine:
 
-- Node.js: [Download](https://nodejs.org/)
-- npm: Automatically installed with Node.js
-- yarn (optional): [Install yarn](https://classic.yarnpkg.com/en/docs/install/) if you prefer using yarn over npm.
+- Node.js (v14 or above recommended)
+- npm (v6 or above) or yarn (v1 or above)
 
 ### Installation
 
-1. Clone the repository:
+1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/your-username/react-vite-starter.git
+    git clone https://github.com/your-username/personal-bookshelf.git
+    cd personal-bookshelf
     ```
 
-2. Navigate into the project directory:
-
-    ```bash
-    cd react-vite-starter
-    ```
-
-3. Install dependencies using npm:
+2. **Install dependencies**:
 
     ```bash
     npm install
+    # or if you prefer yarn
+    yarn install
     ```
 
-    or using yarn:
-
-    ```bash
-    yarn
-    ```
-
-### Development
+### Starting the Development Server
 
 To start the development server, run:
 
 ```bash
 npm run dev
+# or if you prefer yarn
+yarn dev
