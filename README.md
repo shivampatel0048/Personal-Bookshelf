@@ -1,4 +1,3 @@
-```markdown
 # React Vite Starter
 
 This project is a starter template for building React applications using Vite.
@@ -45,32 +44,3 @@ To start the development server, run:
 
 ```bash
 npm run dev
-```
-
-or with yarn:
-
-```bash
-yarn dev
-```
-
-This will start the development server at `http://localhost:3000`.
-
-### Building for Production
-
-To build the project for production, run:
-
-```bash
-npm run build
-```
-
-or with yarn:
-
-```bash
-yarn build
-```
-
-The optimized production build will be generated in the `dist` directory.
-
-### More Information
-
-For more information on Vite, check out the [Vite documentation](https://vitejs.dev/).
